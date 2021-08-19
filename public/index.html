@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CSSI Weather</title>
+    <link
+      rel="shortcut icon"
+      href="../images/fav_icon.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <!-- Bulma Version 0.9.0-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css"
+    />
+  </head>
+  <body>
+    <section class="hero is-info is-medium is-bold">
+      <div class="hero-head">
+        <!-- cleared for now -->
+      </div>
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title" id="header">
+            Weather where you are
+          </h1>
+          <img id="location-img" />
+          <br />
+          <br />
+          <input
+            id="input-box"
+            class="input is-primary is-large"
+            type="text"
+            name="language"
+            placeholder="Mountain View, CA"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <div class="columns features">
+        <div id="column1" class="column "></div>
+        <div id="column2" class="column "></div>
+      </div>
+    </section>
+  </body>
+
+  <script src="script.js"></script>
+</html>
